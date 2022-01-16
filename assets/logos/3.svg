@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_3334" data-name="Group 3334" transform="translate(-1040 -1165)">
+    <rect id="Rectangle_883" data-name="Rectangle 883" width="80" height="80" transform="translate(1040 1165)" fill="#55f7ff"/>
+    <g id="Group_3228" data-name="Group 3228" transform="translate(943 -98)">
+      <rect id="Rectangle_992" data-name="Rectangle 992" width="48" height="48" transform="translate(113 1279)" fill="none"/>
+      <g id="security_on" transform="translate(119 1281)">
+        <path id="Icon_color" data-name="Icon color" d="M19.209,44H16.8a4.026,4.026,0,0,1-2.459-.839L6.179,36.8A16,16,0,0,1,0,24.18V12.48A6.035,6.035,0,0,1,1.76,8.241l7.06-7.06A4.034,4.034,0,0,1,11.66,0H24.34a4.034,4.034,0,0,1,2.84,1.181l7.06,7.06A6.035,6.035,0,0,1,36,12.48v11.7A16,16,0,0,1,29.821,36.8l-8.161,6.361A4.021,4.021,0,0,1,19.209,44Zm-8.15-23.823a.954.954,0,0,0-.7.3L9.3,21.541a1,1,0,0,0,0,1.42l4.759,4.759a.962.962,0,0,0,1.4,0L26.7,16.481v-.022a1,1,0,0,0,0-1.4L25.639,14a1,1,0,0,0-1.4,0L14.76,23.46l-3-2.979A.956.956,0,0,0,11.059,20.177Z" transform="translate(0 0)" fill="#010403"/>
+      </g>
+    </g>
+  </g>
+</svg>

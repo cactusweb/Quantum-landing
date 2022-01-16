@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_3335" data-name="Group 3335" transform="translate(-680 -1417)">
+    <rect id="Rectangle_885" data-name="Rectangle 885" width="80" height="80" transform="translate(680 1417)" fill="#55f7ff"/>
+    <g id="Group_3229" data-name="Group 3229" transform="translate(583 122)">
+      <rect id="Rectangle_993" data-name="Rectangle 993" width="48" height="48" transform="translate(113 1311)" fill="none"/>
+      <g id="book_bookmarked" transform="translate(121 1315)">
+        <path id="Icon_color" data-name="Icon color" d="M31,40H6a6.006,6.006,0,0,1-6-6V6A6.006,6.006,0,0,1,6,0H30a2,2,0,0,1,2,2V39A1,1,0,0,1,31,40ZM6,32a2,2,0,0,0,0,4H28V32Zm4-14.923a1.042,1.042,0,0,1,.561.163l3.879,2.6A1,1,0,0,0,16,19V5a1,1,0,0,0-1-1H5A1,1,0,0,0,4,5V19a1,1,0,0,0,1.561.839l3.879-2.6A1.042,1.042,0,0,1,10,17.077Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

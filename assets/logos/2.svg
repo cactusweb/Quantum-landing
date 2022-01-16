@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_3333" data-name="Group 3333" transform="translate(-680 -1165)">
+    <rect id="Rectangle_881" data-name="Rectangle 881" width="80" height="80" transform="translate(680 1165)" fill="#55f7ff"/>
+    <g id="Group_3227" data-name="Group 3227" transform="translate(589 -63)">
+      <rect id="Rectangle_991" data-name="Rectangle 991" width="48" height="48" transform="translate(107 1244)" fill="none"/>
+      <g id="cloud_on" transform="translate(109 1252)">
+        <path id="Icon_color" data-name="Icon color" d="M33.1,32h0c-.138,0-.277,0-.414-.008H9.905a10.02,10.02,0,0,1,0-20.038A12.073,12.073,0,0,1,13.066,3.86,11.809,11.809,0,0,1,20.8.043C21.133.014,21.472,0,21.806,0A11.9,11.9,0,0,1,33.5,9.95a11.06,11.06,0,0,1,7.152,18.971A10.782,10.782,0,0,1,33.1,32ZM16.553,16.656a1,1,0,0,0-.7.288L14.78,18.026a1.015,1.015,0,0,0,0,1.4L19,23.636a.943.943,0,0,0,1.388,0l8.42-8.5v.04a1.025,1.025,0,0,0,.02-1.422L27.776,12.7a1,1,0,0,0-1.406,0l-6.656,6.732-2.457-2.484A1,1,0,0,0,16.553,16.656Z" transform="translate(0)" fill="#010403"/>
+      </g>
+    </g>
+  </g>
+</svg>

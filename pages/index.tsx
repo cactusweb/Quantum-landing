@@ -1,5 +1,15 @@
+import Nav from "../components/Nav";
+import LandingHero from "../components/LandingHero";
+import FeaturesSection from "../components/FeaturesSection";
+
 const IndexPage = () => {
-  return <>Index page</>;
+  return (
+    <>
+      <Nav />
+      <LandingHero />
+      <FeaturesSection />
+    </>
+  );
 };
 
 export default IndexPage;
