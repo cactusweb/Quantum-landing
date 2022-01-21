@@ -11,9 +11,14 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Clear", sans-serif;
     overflow-x: hidden;
   }
+
+  body, html {
+    overflow-x: hidden;
+  }
   
   * {
     scroll-behavior: smooth;
+    
   }
 `;
 

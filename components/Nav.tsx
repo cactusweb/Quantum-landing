@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import Image from "next/image";
 import navLogo from "../assets/nav-logo.svg";
+import mobileNavButton from "../assets/mobile-nav-button.svg";
+import { useState } from "react";
+import MobileNav from "./MobileNav";
 
 const Row = styled.div`
   display: flex;
@@ -10,6 +13,11 @@ const Row = styled.div`
 
 const Logo = styled.div`
   margin-right: auto;
+
+  @media (max-width: 1000px) {
+    transform: scale(0.87);
+    transform-origin: left;
+  }
 `;
 
 const NavLink = styled.a`
@@ -17,6 +25,10 @@ const NavLink = styled.a`
   text-decoration: none;
   font-size: 14px;
   margin-right: 30px;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;
 
 const NavButton = styled.a`
@@ -31,6 +43,10 @@ const NavButton = styled.a`
   padding-bottom: 1px;
   box-sizing: border-box;
   margin-right: 30px;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;
 
 const NavButtonSecondary = styled.a`
@@ -46,23 +62,47 @@ const NavButtonSecondary = styled.a`
   text-decoration: none;
   padding-bottom: 1px;
   box-sizing: border-box;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+`;
+
+const MobileNavButton = styled.div`
+  display: none;
+  cursor: pointer;
+
+  @media (max-width: 1000px) {
+    display: block;
+  }
 `;
 
 const Nav = () => {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+
   return (
-    <Row>
-      <Logo>
-        <Image src={navLogo} width={163} height={24} alt="Logo" />
-      </Logo>
-      <NavLink href="#">Home</NavLink>
-      <NavLink href="#features">Features</NavLink>
-      <NavLink href="#roadmap">Roadmap</NavLink>
-      <NavLink href="#success">Success</NavLink>
-      <NavLink href="#faq">FAQ</NavLink>
-      <NavLink href="#community">Community</NavLink>
-      <NavButton href="#">Join Waitlist</NavButton>
-      <NavButtonSecondary href="#">Dashboard</NavButtonSecondary>
-    </Row>
+    <>
+      <MobileNav
+        isOpen={isMobileNavOpen}
+        toggle={() => setIsMobileNavOpen((prev) => !prev)}
+      />
+      <Row>
+        <Logo>
+          <Image src={navLogo} width={163} height={24} alt="Logo" />
+        </Logo>
+        <NavLink href="#">Home</NavLink>
+        <NavLink href="#features">Features</NavLink>
+        <NavLink href="#roadmap">Roadmap</NavLink>
+        <NavLink href="#success">Success</NavLink>
+        <NavLink href="#faq">FAQ</NavLink>
+        <NavLink href="#community">Community</NavLink>
+        <NavButton href="#">Join Waitlist</NavButton>
+        <NavButtonSecondary href="#">Dashboard</NavButtonSecondary>
+        <MobileNavButton onClick={() => setIsMobileNavOpen(true)}>
+          <Image src={mobileNavButton} width={20} height={20} alt="Nav" />
+        </MobileNavButton>
+      </Row>
+    </>
   );
 };
 

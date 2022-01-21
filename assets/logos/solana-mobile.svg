@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.333" height="24" viewBox="0 0 30.333 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_7254" data-name="Path 7254" d="M5.63,21.725a.986.986,0,0,0-.7.289L.145,26.794A.485.485,0,0,0,0,27.134v.015a.494.494,0,0,0,.5.491H24.7a.988.988,0,0,0,.7-.29l4.784-4.78a.494.494,0,0,0-.349-.844Z" transform="translate(0 -21.725)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_7255" data-name="Path 7255" d="M5.63,0a.986.986,0,0,0-.7.289L.145,5.069A.485.485,0,0,0,0,5.409v.015a.5.5,0,0,0,.5.492H24.7a.988.988,0,0,0,.7-.29L30.187.845A.5.5,0,0,0,29.838,0Z" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_7256" data-name="Path 7256" d="M.5,10.793a.5.5,0,0,0-.5.492V11.3a.484.484,0,0,0,.145.339l4.785,4.78a.986.986,0,0,0,.7.29H29.838a.5.5,0,0,0,.349-.845L25.4,11.082a.991.991,0,0,0-.7-.289Z" transform="translate(0 -10.793)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3278" data-name="Group 3278" transform="translate(-2341 -1015)">
+    <g id="Group_3213" data-name="Group 3213" transform="translate(2341 1033.086)">
+      <g id="Group_3212" data-name="Group 3212" clip-path="url(#clip-path)">
+        <rect id="Rectangle_985" data-name="Rectangle 985" width="19.358" height="29.773" transform="matrix(0.463, -0.886, 0.886, 0.463, -2.426, 4.647)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_3215" data-name="Group 3215" transform="translate(2341 1015)">
+      <g id="Group_3214" data-name="Group 3214" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_986" data-name="Rectangle 986" width="19.358" height="29.773" transform="translate(-2.427 4.648) rotate(-62.432)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_3217" data-name="Group 3217" transform="translate(2341 1023.985)">
+      <g id="Group_3216" data-name="Group 3216" clip-path="url(#clip-path-3)">
+        <rect id="Rectangle_987" data-name="Rectangle 987" width="19.358" height="29.773" transform="translate(-2.427 4.648) rotate(-62.432)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
