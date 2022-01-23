@@ -24,6 +24,7 @@ const Column = styled.div`
 
   @media (max-width: 1000px) {
     margin-top: 120px;
+    padding-bottom: 100px;
   }
 `;
 

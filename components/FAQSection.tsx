@@ -6,6 +6,10 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 900px) {
+    padding-top: 100px;
+  }
 `;
 
 const AboveTitle = styled.span`
@@ -14,6 +18,10 @@ const AboveTitle = styled.span`
   margin-bottom: -2px;
   letter-spacing: 3.6px;
   text-align: center;
+
+  @media (max-width: 900px) {
+    font-size: 8px;
+  }
 `;
 
 const Title = styled.span`
@@ -21,6 +29,11 @@ const Title = styled.span`
   font-weight: 500;
   margin-bottom: 15px;
   text-align: center;
+
+  @media (max-width: 900px) {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
 `;
 
 const Subtitle = styled.span`
@@ -30,6 +43,11 @@ const Subtitle = styled.span`
   max-width: 90vw;
   margin-bottom: 25px;
   text-align: center;
+
+  @media (max-width: 900px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 `;
 
 const Row = styled.div`

@@ -38,8 +38,10 @@ const CardTitle = styled.span`
   font-size: 16px;
   font-weight: 500;
   margin-right: auto;
-  @media (max-width: 800px) {
+
+  @media (max-width: 900px) {
     font-size: 14px;
+    line-height: 20px;
   }
 `;
 
@@ -47,11 +49,14 @@ const CardText = styled(motion.span)`
   font-size: 14px;
   line-height: 20px;
   padding-top: 11px;
+
   a {
     color: white;
   }
-  @media (max-width: 800px) {
-    font-size: 13px;
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    line-height: 16px;
   }
 `;
 

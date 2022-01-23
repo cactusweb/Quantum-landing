@@ -15,6 +15,11 @@ const Column = styled.div`
   padding: 50px 0;
   margin-top: 200px;
   position: relative;
+
+  @media (max-width: 900px) {
+    margin-top: 100px;
+    padding: 35px 0;
+  }
 `;
 
 const AboveTitle = styled.span`
@@ -24,6 +29,10 @@ const AboveTitle = styled.span`
   letter-spacing: 3.6px;
   text-align: center;
   color: #010403;
+
+  @media (max-width: 900px) {
+    font-size: 8px;
+  }
 `;
 
 const Title = styled.span`
@@ -32,6 +41,11 @@ const Title = styled.span`
   margin-bottom: 15px;
   text-align: center;
   color: #010403;
+
+  @media (max-width: 900px) {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
 `;
 
 const Subtitle = styled.span`
@@ -42,6 +56,11 @@ const Subtitle = styled.span`
   margin-bottom: 25px;
   text-align: center;
   color: #010403;
+
+  @media (max-width: 900px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 `;
 
 const Row = styled.div`

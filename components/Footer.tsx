@@ -16,6 +16,10 @@ const Container = styled.div`
   @media (max-width: 1100px) {
     flex-direction: column;
   }
+
+  @media (max-width: 900px) {
+    padding-top: 100px;
+  }
 `;
 
 const Col = styled.div`
@@ -65,6 +69,11 @@ const Heading = styled.span`
   font-weight: 500;
   margin-bottom: 20px;
   text-transform: uppercase;
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
 `;
 
 const LinksRow = styled.div`
@@ -87,6 +96,11 @@ const Link = styled.a`
   font-weight: 300;
   margin-bottom: 20px;
   white-space: nowrap;
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
 `;
 
 const SocialsIconsRow = styled.div`
@@ -129,6 +143,11 @@ const CopyrightText = styled.span`
     text-align: center;
     line-height: 160%;
   }
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
 `;
 
 const LegalLinks = styled.div`
@@ -145,6 +164,11 @@ const LegalLink = styled.a`
 
   &:first-child {
     margin-left: 0;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    margin-left: 20px;
   }
 `;
 
