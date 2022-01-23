@@ -20,11 +20,13 @@ const Column = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
+  padding-top: 50px;
 
   @media (max-width: 1000px) {
     margin-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 `;
 

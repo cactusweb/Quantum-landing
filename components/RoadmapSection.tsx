@@ -7,6 +7,7 @@ const Column = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 100px;
 `;
 
 const AreaFadeOutRegionMobile = styled.div`

@@ -7,12 +7,31 @@ import success3 from "../assets/success/3.png";
 import success4 from "../assets/success/4.png";
 import success5 from "../assets/success/5.png";
 import success6 from "../assets/success/6.png";
+import success7 from "../assets/success/7.png";
+import success8 from "../assets/success/8.png";
+import success9 from "../assets/success/9.png";
+import success10 from "../assets/success/10.png";
+import success11 from "../assets/success/11.png";
+import success12 from "../assets/success/12.png";
+import success13 from "../assets/success/13.png";
+import success14 from "../assets/success/14.png";
+import success15 from "../assets/success/15.png";
+
 import mobileSuccess11 from "../assets/success/mobile-1-1.png";
 import mobileSuccess12 from "../assets/success/mobile-1-2.png";
 import mobileSuccess13 from "../assets/success/mobile-1-3.png";
 import mobileSuccess14 from "../assets/success/mobile-1-4.png";
 import mobileSuccess15 from "../assets/success/mobile-1-5.png";
 import mobileSuccess16 from "../assets/success/mobile-1-6.png";
+import mobileSuccess17 from "../assets/success/mobile-1-7.png";
+import mobileSuccess18 from "../assets/success/mobile-1-8.png";
+import mobileSuccess19 from "../assets/success/mobile-1-9.png";
+import mobileSuccess110 from "../assets/success/mobile-1-10.png";
+import mobileExtra1 from "../assets/success/mobile-extra-1.png";
+import mobileExtra2 from "../assets/success/mobile-extra-2.png";
+import mobileExtra3 from "../assets/success/mobile-extra-3.png";
+import mobileExtra4 from "../assets/success/mobile-extra-4.png";
+import mobileExtra5 from "../assets/success/mobile-extra-5.png";
 
 const Column = styled.div`
   padding-top: 190px;
@@ -99,6 +118,33 @@ const SuccessSection = () => {
           <SuccessImage>
             <Image src={success6} alt="" width={426} height={240} />
           </SuccessImage>
+          <SuccessImage>
+            <Image src={success7} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success8} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success9} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success10} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success11} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success12} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success13} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success14} alt="" width={426} height={240} />
+          </SuccessImage>
+          <SuccessImage>
+            <Image src={success15} alt="" width={426} height={240} />
+          </SuccessImage>
         </Marquee>
       </DesktopMarquee>
       <MobileMarquee>
@@ -121,6 +167,18 @@ const SuccessSection = () => {
           <SuccessImageMobile>
             <Image alt="" src={mobileSuccess16} width={267} height={150} />
           </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileSuccess17} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileSuccess18} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileSuccess19} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileSuccess110} width={267} height={150} />
+          </SuccessImageMobile>
         </Marquee>
         <Marquee gradient={false} speed={40} direction="right">
           <SuccessImageMobile>
@@ -137,6 +195,21 @@ const SuccessSection = () => {
           </SuccessImageMobile>
           <SuccessImageMobile>
             <Image alt="" src={mobileSuccess16} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileExtra1} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileExtra2} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileExtra3} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileExtra4} width={267} height={150} />
+          </SuccessImageMobile>
+          <SuccessImageMobile>
+            <Image alt="" src={mobileExtra5} width={267} height={150} />
           </SuccessImageMobile>
         </Marquee>
       </MobileMarquee>

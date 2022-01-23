@@ -87,11 +87,11 @@ const FAQSection = () => {
         <Col>
           <FAQCard
             question="What is Quantum IO?"
-            answer="Quantum IO is NFT Automation Cloud Software."
+            answer="Quantum IO is NFT Automation Cloud Software"
           />
           <FAQCard
             question="What platforms are supported?"
-            answer="Quantum IO currently supports VeVe. Solana/Ethereum next."
+            answer="Quantum IO currently supports VeVe. Solana/Ethereum next"
           />
         </Col>
         <Col>
@@ -101,7 +101,7 @@ const FAQSection = () => {
           />
           <FAQCard
             question="How much is a license and renewal fee?"
-            answer="Renewal depends on the number of accounts which member plans to launch monthly."
+            answer="Renewal depends on the number of accounts which member plans to launch monthly"
           />
         </Col>
       </Row>
