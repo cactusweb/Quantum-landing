@@ -6,10 +6,12 @@ import SuccessSection from "../components/SuccessSection";
 import FAQSection from "../components/FAQSection";
 import CommunitySection from "../components/CommunitySection";
 import Footer from "../components/Footer";
+import LoadingScreen from "../components/LoadingScreen";
 
 const IndexPage = () => {
   return (
     <>
+      <LoadingScreen />
       <Nav />
       <LandingHero />
       <FeaturesSection />
