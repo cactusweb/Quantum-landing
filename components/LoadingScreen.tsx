@@ -29,14 +29,7 @@ const SpinnerContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-`;
 
-const Spinner = styled.div`
-  position: absolute;
-  height: 180px;
-  width: 180px;
-  border: 7px solid white;
-  border-radius: 50%;
   animation: onOff 1.5s ease-in-out infinite;
 
   @keyframes onOff {
@@ -62,7 +55,6 @@ const LoadingScreen = () => {
   return (
     <Container visible={isVisible}>
       <SpinnerContainer>
-        <Spinner />
         <Image src={navLogo} height={50} width={100} />
       </SpinnerContainer>
     </Container>
