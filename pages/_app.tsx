@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }) {
         <title>Quantum IO</title>
         <link rel="stylesheet" href="/font/font.css" />
         <link href="/favicon.png" rel="icon" />
-        <meta name="theme-color" content="#F7C907" />
+        <meta name="theme-color" content="#55F7FF" />
         <meta
           property="og:image"
           content="https://quantum-landing.vercel.app/metadata_preview.png"
