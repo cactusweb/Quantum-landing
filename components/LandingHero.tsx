@@ -234,9 +234,7 @@ const LandingHero = () => {
           leave the rest to Quantum IO
         </Subtitle>
         <ButtonsRow>
-          <ButtonLeft href="https://dashboard.thetradingblock.org/products/thetradingblock/1948?waitlist=waitlist">
-            Join Waitlist
-          </ButtonLeft>
+          <ButtonLeft href="#">Join Waitlist</ButtonLeft>
           <ButtonRight href="#about">Learn More</ButtonRight>
         </ButtonsRow>
         <InfoRow>

@@ -222,21 +222,21 @@ const Footer = () => {
           </Link>
           <SocialsIconsRow>
             <SocialsIcon
-              href="https://twitter.com/"
+              href="https://twitter.com/Quantum_NFT"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={twitterIcon} width={16} height={16} alt="Twitter" />
             </SocialsIcon>
             <SocialsIcon
-              href="https://discord.com/"
+              href="https://discord.gg/eBUmPTTwMg"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={discordIcon} width={16} height={16} alt="Discord" />
             </SocialsIcon>
             <SocialsIcon
-              href="https://www.opensea.io/"
+              href="https://opensea.io/collection/quantumio"
               target="_blank"
               rel="noopener noreferrer"
             >

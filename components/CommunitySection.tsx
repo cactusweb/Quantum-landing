@@ -129,7 +129,7 @@ const CommunitySection = () => {
         Quantum IO events
       </Subtitle>
       <Row>
-        <Button href="https://twitter.com/">
+        <Button href="https://twitter.com/Quantum_NFT">
           <ButtonText>Twitter</ButtonText>
           <ButtonIcon>
             <Image
@@ -140,7 +140,7 @@ const CommunitySection = () => {
             />
           </ButtonIcon>
         </Button>
-        <Button href="https://discord.gg/">
+        <Button href="https://discord.gg/eBUmPTTwMg">
           <ButtonText>Discord</ButtonText>
           <ButtonIcon>
             <Image
@@ -151,7 +151,7 @@ const CommunitySection = () => {
             />
           </ButtonIcon>
         </Button>
-        <Button href="https://opensea.io/">
+        <Button href="https://opensea.io/collection/quantumio">
           <ButtonText>OpenSea</ButtonText>
           <ButtonIcon>
             <Image
