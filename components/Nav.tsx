@@ -77,7 +77,7 @@ const MobileNavButton = styled.div`
   }
 `;
 
-const Nav = () => {
+const Nav = ({ isExternal }: { isExternal?: boolean }) => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
   return (
@@ -90,14 +90,16 @@ const Nav = () => {
         <Logo>
           <Image src={navLogo} width={163} height={24} alt="Logo" />
         </Logo>
-        <NavLink href="#">Home</NavLink>
-        <NavLink href="#features">Features</NavLink>
-        <NavLink href="#roadmap">Roadmap</NavLink>
-        <NavLink href="#success">Success</NavLink>
-        <NavLink href="#faq">FAQ</NavLink>
-        <NavLink href="#community">Community</NavLink>
-        <NavButton href="#">Join Waitlist</NavButton>
-        <NavButtonSecondary href="#">Dashboard</NavButtonSecondary>
+        <NavLink href={isExternal ? "/" : "#"}>Home</NavLink>
+        <NavLink href={`${isExternal ? "/" : ""}#features`}>Features</NavLink>
+        <NavLink href={`${isExternal ? "/" : ""}#roadmap`}>Roadmap</NavLink>
+        <NavLink href={`${isExternal ? "/" : ""}#success`}>Success</NavLink>
+        <NavLink href={`${isExternal ? "/" : ""}#faq`}>FAQ</NavLink>
+        <NavLink href={`${isExternal ? "/" : ""}#community`}>Community</NavLink>
+        <NavButton href={`${isExternal ? "/" : ""}#`}>Join Waitlist</NavButton>
+        <NavButtonSecondary href={`${isExternal ? "/" : ""}#`}>
+          Dashboard
+        </NavButtonSecondary>
         <MobileNavButton onClick={() => setIsMobileNavOpen(true)}>
           <Image src={mobileNavButton} width={20} height={20} alt="Nav" />
         </MobileNavButton>

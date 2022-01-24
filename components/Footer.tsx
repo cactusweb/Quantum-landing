@@ -185,7 +185,7 @@ const MobileHidden = styled.span`
   }
 `;
 
-const Footer = () => {
+const Footer = ({ isExternal }: { isExternal?: boolean }) => {
   return (
     <>
       <Container>
@@ -203,15 +203,15 @@ const Footer = () => {
           <Heading>MENU</Heading>
           <LinksRow>
             <LinksCol>
-              <Link href="#">Home</Link>
-              <Link href="#features">Features</Link>
-              <Link href="#roadmap">Roadmap</Link>
-              <Link href="#success">Success</Link>
+              <Link href={`${isExternal ? "/" : ""}#`}>Home</Link>
+              <Link href={`${isExternal ? "/" : ""}#features`}>Features</Link>
+              <Link href={`${isExternal ? "/" : ""}#roadmap`}>Roadmap</Link>
+              <Link href={`${isExternal ? "/" : ""}#success`}>Success</Link>
             </LinksCol>
             <LinksCol>
-              <Link href="#faq">FAQ</Link>
-              <Link href="#community">Community</Link>
-              <Link href="#">Join Waitlist</Link>
+              <Link href={`${isExternal ? "/" : ""}#faq`}>FAQ</Link>
+              <Link href={`${isExternal ? "/" : ""}#community`}>Community</Link>
+              <Link href={`${isExternal ? "/" : ""}#`}>Join Waitlist</Link>
             </LinksCol>
           </LinksRow>
         </Col>
@@ -253,8 +253,8 @@ const Footer = () => {
             Copyright © 2022 | All rights reserved.
           </CopyrightText>
           <LegalLinks>
-            <LegalLink href="#">Terms & Conditions</LegalLink>
-            <LegalLink href="#">Privacy Policy</LegalLink>
+            <LegalLink href="/terms">Terms & Conditions</LegalLink>
+            <LegalLink href="/privacy">Privacy Policy</LegalLink>
           </LegalLinks>
         </UnderFooterWrapper>
       </UnderFooterRow>
