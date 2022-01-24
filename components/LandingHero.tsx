@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import landingBackground from "../assets/background-landing.png";
 import landingImage from "../assets/landing-image.svg";
-import landingImageMobile from "../assets/landing-image-mobile.svg";
+import landingImageMobile from "../assets/landing-image-mobile.png";
 import checkboxGreen from "../assets/checkbox.svg";
 
 const Background = styled.div`
@@ -66,6 +66,7 @@ const MobileLandingImage = styled.div`
   box-shadow: 0 0 60px rgba(85, 247, 255, 0.3);
   margin-top: 35px;
   align-self: flex-start;
+  height: calc(90vw * 0.574);
 
   @media (max-width: 1000px) {
     display: block;
