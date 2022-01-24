@@ -248,7 +248,7 @@ const Footer = () => {
       <UnderFooterRow>
         <UnderFooterWrapper>
           <CopyrightText>
-            Quantum IO LLC <MobileHidden>| </MobileHidden>
+            Quantum IO LLP <MobileHidden>| </MobileHidden>
             <MobileOnlyBreak />
             Copyright © 2022 | All rights reserved.
           </CopyrightText>

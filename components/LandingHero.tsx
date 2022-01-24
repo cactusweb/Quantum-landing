@@ -221,6 +221,7 @@ const LandingHero = () => {
           src={landingBackground}
           layout="fill"
           objectFit="cover"
+          unoptimized
         />
       </Background>
       <FadeOutRegion />
@@ -236,7 +237,7 @@ const LandingHero = () => {
         </Subtitle>
         <ButtonsRow>
           <ButtonLeft href="#">Join Waitlist</ButtonLeft>
-          <ButtonRight href="#about">Learn More</ButtonRight>
+          <ButtonRight href="#features">Learn More</ButtonRight>
         </ButtonsRow>
         <InfoRow>
           <Checkbox>
