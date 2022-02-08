@@ -237,7 +237,9 @@ const LandingHero = () => {
           leave the rest to Quantum IO
         </Subtitle>
         <ButtonsRow>
-          <ButtonLeft href="#">Join Waitlist</ButtonLeft>
+          <ButtonLeft href="https://dashboard.qionft.cloud/waitlist">
+            Join Waitlist
+          </ButtonLeft>
           <ButtonRight href="#features">Learn More</ButtonRight>
         </ButtonsRow>
         <InfoRow>

@@ -96,7 +96,9 @@ const Nav = ({ isExternal }: { isExternal?: boolean }) => {
         <NavLink href={`${isExternal ? "/" : ""}#success`}>Success</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#faq`}>FAQ</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#community`}>Community</NavLink>
-        <NavButton href={`${isExternal ? "/" : ""}#`}>Join Waitlist</NavButton>
+        <NavButton href="https://dashboard.qionft.cloud/waitlist">
+          Join Waitlist
+        </NavButton>
         <NavButtonSecondary href={`${isExternal ? "/" : ""}#`}>
           Dashboard
         </NavButtonSecondary>
