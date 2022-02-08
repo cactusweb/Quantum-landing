@@ -99,7 +99,7 @@ const Nav = ({ isExternal }: { isExternal?: boolean }) => {
         <NavButton href="https://dashboard.qionft.cloud/waitlist">
           Join Waitlist
         </NavButton>
-        <NavButtonSecondary href={`${isExternal ? "/" : ""}#`}>
+        <NavButtonSecondary href="https://dashboard.qionft.cloud/">
           Dashboard
         </NavButtonSecondary>
         <MobileNavButton onClick={() => setIsMobileNavOpen(true)}>
