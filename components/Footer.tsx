@@ -211,7 +211,9 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
             <LinksCol>
               <Link href={`${isExternal ? "/" : ""}#faq`}>FAQ</Link>
               <Link href={`${isExternal ? "/" : ""}#community`}>Community</Link>
-              <Link href={`${isExternal ? "/" : ""}#`}>Join Waitlist</Link>
+              <Link href="https://dashboard.qionft.cloud/products/quantumio/5338">
+                Join Waitlist
+              </Link>
             </LinksCol>
           </LinksRow>
         </Col>

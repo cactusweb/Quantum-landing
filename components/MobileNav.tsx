@@ -80,7 +80,7 @@ const MobileNav = (props: MobileNavProps) => {
       <NavLink href="#success">Success</NavLink>
       <NavLink href="#faq">FAQ</NavLink>
       <NavLink href="#community">Community</NavLink>
-      <NavLink href="https://dashboard.qionft.cloud/waitlist">
+      <NavLink href="https://dashboard.qionft.cloud/products/quantumio/5338">
         Join Waitlist
       </NavLink>
       <NavButton href="https://dashboard.qionft.cloud/">Dashboard</NavButton>
