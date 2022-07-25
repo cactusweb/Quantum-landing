@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import twitterLogo from "../assets/socials/twitter.svg";
 import discordLogo from "../assets/socials/discord.svg";
-import openseaLogo from "../assets/socials/opensea.svg";
 import communityFade from "../assets/community-fade.svg";
 
 const Column = styled.div`
@@ -148,17 +147,6 @@ const CommunitySection = () => {
               width={24}
               height={24}
               alt="Discord logo"
-            />
-          </ButtonIcon>
-        </Button>
-        <Button href="https://opensea.io/collection/quantumio">
-          <ButtonText>OpenSea</ButtonText>
-          <ButtonIcon>
-            <Image
-              src={openseaLogo}
-              width={24}
-              height={24}
-              alt="OpenSea logo"
             />
           </ButtonIcon>
         </Button>

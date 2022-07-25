@@ -4,7 +4,6 @@ import Image from "next/image";
 import footerLogo from "../assets/footer-logo.svg";
 import twitterIcon from "../assets/socials/twitter.svg";
 import discordIcon from "../assets/socials/discord.svg";
-import openseaIcon from "../assets/socials/opensea.svg";
 
 const Container = styled.div`
   display: flex;
@@ -236,13 +235,6 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
               rel="noopener noreferrer"
             >
               <Image src={discordIcon} width={16} height={16} alt="Discord" />
-            </SocialsIcon>
-            <SocialsIcon
-              href="https://opensea.io/collection/quantumio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src={openseaIcon} width={16} height={16} alt="OpenSea" />
             </SocialsIcon>
           </SocialsIconsRow>
         </Col>
