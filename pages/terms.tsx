@@ -114,7 +114,7 @@ const TermsPage = () => {
       <Container>
         <LeftColumn>
           <Title>Terms and Conditions</Title>
-          <Subtitle>Quantum IO LLP</Subtitle>
+          <Subtitle>SSQ Digital LLP</Subtitle>
           <InformationText>Updated at 2022-01-24</InformationText>
           <SideLink href="#1">General Terms</SideLink>
           <SideLink href="#2">License</SideLink>
@@ -208,9 +208,9 @@ const TermsPage = () => {
               </li>
               <li>
                 Company: when this policy mentions “Company,” “we,” “us,” or
-                “our,” it refers to QUANTUM IO LLP, (PALLISER HOUSE SECOND FLOOR
-                PALLISER ROAD LONDON UNITED KINGDOM W14 9EB) that is responsible
-                for your information under this Terms & Conditions.
+                “our,” it refers to SSQ Digital LLP, (PALLISER HOUSE SECOND
+                FLOOR PALLISER ROAD LONDON UNITED KINGDOM W14 9EB) that is
+                responsible for your information under this Terms & Conditions.
               </li>
               <li>
                 Country: where Quantum IO or the owners/founders of Quantum IO
@@ -609,7 +609,7 @@ const TermsPage = () => {
             Notice of Dispute, which is a written statement that sets forth the
             name, address, and contact information of the party giving it, the
             facts giving rise to the dispute, and the relief requested. You must
-            send any Notice of Dispute via email to: quantumio.nft@gmail.com.
+            send any Notice of Dispute via email to: ohodkompsonutzer@gmail.com.
             Quantum IO will send any Notice of Dispute to you by mail to your
             address if we have it, or otherwise to your email address. You and
             Quantum IO will attempt to resolve any dispute through informal
@@ -746,7 +746,7 @@ const TermsPage = () => {
           <Text>
             Don't hesitate to contact us if you have any questions.
             <ul>
-              <li>Via Email: quantumio.nft@gmail.com</li>
+              <li>Via Email: ohodkompsonutzer@gmail.com</li>
             </ul>
           </Text>
         </RightColumn>

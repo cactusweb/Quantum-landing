@@ -218,8 +218,8 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
         </Col>
         <Col>
           <Heading>Contact</Heading>
-          <Link href="mailto:quantumio.nft@gmail.com">
-            quantumio.nft@gmail.com
+          <Link href="mailto:ohodkompsonutzer@gmail.com">
+            ohodkompsonutzer@gmail.com
           </Link>
           <SocialsIconsRow>
             <SocialsIcon
@@ -242,7 +242,7 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
       <UnderFooterRow>
         <UnderFooterWrapper>
           <CopyrightText>
-            Quantum IO LLP <MobileHidden>| </MobileHidden>
+            SSQ Digital LLP <MobileHidden>| </MobileHidden>
             <MobileOnlyBreak />
             Copyright © 2022 | All rights reserved.
           </CopyrightText>

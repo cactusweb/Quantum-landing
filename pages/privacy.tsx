@@ -114,7 +114,7 @@ const PrivacyPage = () => {
       <Container>
         <LeftColumn>
           <Title>Privacy Policy</Title>
-          <Subtitle>Quantum IO LLP</Subtitle>
+          <Subtitle>SSQ Digital LLP</Subtitle>
           <InformationText>Updated at 2022-01-24</InformationText>
           <SideLink href="#1">Definitions and key terms</SideLink>
           <SideLink href="#2">Information automatically collected</SideLink>
@@ -175,9 +175,9 @@ const PrivacyPage = () => {
               </li>
               <li>
                 Company: when this policy mentions “Company,” “we,” “us,” or
-                “our,” it refers to QUANTUM IO LLP, (PALLISER HOUSE SECOND FLOOR
-                PALLISER ROAD LONDON UNITED KINGDOM W14 9EB) that is responsible
-                for your information under this Privacy Policy.
+                “our,” it refers to SSQ Digital LLP, (PALLISER HOUSE SECOND
+                FLOOR PALLISER ROAD LONDON UNITED KINGDOM W14 9EB) that is
+                responsible for your information under this Privacy Policy.
               </li>
               <li>
                 Country: where Quantum IO or the owners/founders of Quantum IO
@@ -574,7 +574,7 @@ const PrivacyPage = () => {
             <br />
             <br />
             <ul>
-              <li>Via Email: quantumio.nft@gmail.com</li>
+              <li>Via Email: ohodkompsonutzer@gmail.com</li>
             </ul>
           </Text>
         </RightColumn>
