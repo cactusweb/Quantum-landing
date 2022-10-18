@@ -185,9 +185,9 @@ const RoadmapSection = () => {
                 <Image src={notchIcon} width={8} height={8} />
               </Notch>
             </SeparatorLine>
-            <StageText>Socials: Website, Twitter, Discord</StageText>
+            {/* <StageText>Socials: Website, Twitter, Discord</StageText>
             <StageText>Community Building</StageText>
-            <StageText>Closed Beta Testing</StageText>
+            <StageText>Closed Beta Testing</StageText> */}
           </StageColumn>
           <StageSeparatorLineMobile>
             <Notch>
@@ -204,10 +204,10 @@ const RoadmapSection = () => {
                 <Image src={notchIcon} width={8} height={8} />
               </Notch>
             </SeparatorLine>
-            <StageText>x1 Renewal Giveaway</StageText>
+            {/* <StageText>x1 Renewal Giveaway</StageText>
             <StageText>x1 Renewal NFT Auction</StageText>
             <StageText>Pre-sale via Google Docs</StageText>
-            <StageText>Quantum IO Release Day</StageText>
+            <StageText>Quantum IO Release Day</StageText> */}
           </StageColumn>
           <StageSeparatorLineMobile>
             <Notch>
@@ -224,9 +224,9 @@ const RoadmapSection = () => {
                 <Image src={notchIcon} width={8} height={8} />
               </Notch>
             </SeparatorLine>
-            <StageText>Renewals Limited Restock</StageText>
+            {/* <StageText>Renewals Limited Restock</StageText>
             <StageText>New Platforms Launch: SOL/ETH & NFT Sniper</StageText>
-            <StageText>Listing on Secondary Markets</StageText>
+            <StageText>Listing on Secondary Markets</StageText> */}
           </StageColumn>
           <StageSeparatorLineMobile>
             <Notch>
@@ -243,10 +243,10 @@ const RoadmapSection = () => {
                 <Image src={notchIcon} width={8} height={8} />
               </Notch>
             </SeparatorLine>
-            <StageText>Lifetime Giveaway</StageText>
+            {/* <StageText>Lifetime Giveaway</StageText>
             <StageText>Lifetime NFT Auction</StageText>
             <StageText>Quantum Merch</StageText>
-            <StageText>NFT Mystery Boxes</StageText>
+            <StageText>NFT Mystery Boxes</StageText> */}
           </StageColumn>
           <StageSeparatorLineMobile>
             <Notch>
@@ -263,7 +263,7 @@ const RoadmapSection = () => {
                 <Image src={notchIcon} width={8} height={8} />
               </Notch>
             </SeparatorLine>
-            <StageText>New Era Roadmap</StageText>
+            {/* <StageText>New Era Roadmap</StageText> */}
           </StageColumn>
           <StageSeparatorLineMobile style={{ paddingBottom: "200px" }}>
             <Notch>

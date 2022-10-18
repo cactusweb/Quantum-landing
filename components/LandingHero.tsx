@@ -101,17 +101,19 @@ const AboveTitle = styled.span`
 `;
 
 const Title = styled.span`
-  width: 400px;
+  width: 450px;
   max-width: 90vw;
   font-size: 44px;
   font-weight: 500;
   line-height: 54px;
   margin-bottom: 15px;
+  margin-top: 75px;
 
   @media (max-width: 1000px) {
     font-size: 36px;
     line-height: 46px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 `;
 
@@ -227,33 +229,22 @@ const LandingHero = () => {
       </Background>
       <FadeOutRegion />
       <Col>
-        <AboveTitle>VEVE PLATFORM | SOL & ETH SOON</AboveTitle>
+        {/* <AboveTitle>VEVE PLATFORM | SOL & ETH SOON</AboveTitle> */}
         <Title>
           <span style={{ color: "#55F7FF" }}>QUANTUM IO</span>
-          <br /> NFT Automation Cloud Software
+          <br /> Multiplatform Automation Software
         </Title>
         <Subtitle>
-          Hands-Free Software with Drop & Restock Automation Connect account &
-          leave the rest to Quantum IO
+          Innovative Software to buy limited items
+          <br />
+          Various Modules: Cloud | Hybrid | Pro
         </Subtitle>
         <ButtonsRow>
-          <ButtonLeft href="https://dashboard.qionft.cloud/products/quantumio/5338">
+          <ButtonLeft href="https://dashboard.qionft.cloud/quantumio?directPlanId=hybrid_wl">
             Join Waitlist
           </ButtonLeft>
           <ButtonRight href="#features">Learn More</ButtonRight>
         </ButtonsRow>
-        <InfoRow>
-          <Checkbox>
-            <Image src={checkboxGreen} alt="Checkbox" width={15} height={15} />
-          </Checkbox>
-          <InfoText>No more need to setup bot due to cloud technology</InfoText>
-        </InfoRow>
-        <InfoRow>
-          <Checkbox>
-            <Image src={checkboxGreen} alt="Checkbox" width={15} height={15} />
-          </Checkbox>
-          <InfoText>No more need to purchase proxies and servers</InfoText>
-        </InfoRow>
         <MobileLandingImage>
           <Image src={landingImageMobile} width={690} height={396} alt="" />
         </MobileLandingImage>

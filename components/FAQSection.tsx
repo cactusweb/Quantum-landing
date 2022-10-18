@@ -80,29 +80,29 @@ const FAQSection = () => {
       <AboveTitle>FAQ</AboveTitle>
       <Title>Frequently Asked Questions</Title>
       <Subtitle>
-        Get more information on our public discord server or contact with
-        Quantum IO Support directly through the ticket system on our server
+        Contact with Quantum IO Support directly through the ticket system on
+        our server
       </Subtitle>
       <Row>
         <Col>
           <FAQCard
             question="What is Quantum IO?"
-            answer="Quantum IO is NFT Automation Cloud Software"
+            answer="Quantum IO is Multiplatform Automation Software with Great Community & Support"
           />
-          <FAQCard
+          {/* <FAQCard
             question="What platforms are supported?"
             answer="Quantum IO currently supports VeVe. Solana/Ethereum next"
-          />
+          /> */}
         </Col>
         <Col>
           <FAQCard
-            question="Will I need a proxy and a server to use the software?"
-            answer="Quantum IO is hands-free cloud software. No need to use proxies and servers"
+            question="How can I get Access?"
+            answer="Join our Waitlist. Our Team will select new members every week"
           />
-          <FAQCard
+          {/* <FAQCard
             question="How much is a license and renewal fee?"
             answer="Renewal depends on the number of accounts which member plans to launch monthly"
-          />
+          /> */}
         </Col>
       </Row>
     </Column>

@@ -216,37 +216,11 @@ const FeaturesSection = () => {
         <Image src={fadeRight} width={1000} height={1000} />
       </FadeBackgroundRight>
       <AboveTitle>FEATURES</AboveTitle>
-      <Title>NFT Automation Cloud Software</Title>
+      <Title>Multiplatform Automation Software</Title>
       <Subtitle>
-        All-in-One NFT Software with cloud technology with three different
-        modules for maximum success during NFT Drops & Restocks on any platform
+        All-in-One Software with three different modules for maximum success
+        during Drops & Restocks on any platform
       </Subtitle>
-      <Row>
-        <RowCell>
-          <DesktopLogo>
-            <Image src={ethereumLogo} alt="Ethereum Logo" height={22} />
-          </DesktopLogo>
-          <MobileLogo>
-            <Image src={ethereumMobileLogo} alt="Ethereum Logo" height={30} />
-          </MobileLogo>
-        </RowCell>
-        <RowCell active>
-          <DesktopLogo>
-            <Image src={veveLogo} alt="Veve Logo" height={16} />
-          </DesktopLogo>
-          <MobileLogo>
-            <Image src={veveMobileLogo} alt="Veve Logo" height={14} />
-          </MobileLogo>
-        </RowCell>
-        <RowCell>
-          <DesktopLogo>
-            <Image src={solanaLogo} alt="Solana Logo" height={15} />
-          </DesktopLogo>
-          <MobileLogo>
-            <Image src={solanaMobileLogo} alt="Solana Logo" height={24} />
-          </MobileLogo>
-        </RowCell>
-      </Row>
       <Grid>
         <GridCard>
           <Image src={icon1} alt="" height={80} width={80} />
@@ -259,33 +233,22 @@ const FeaturesSection = () => {
           </CardCol>
         </GridCard>
         <GridCard>
-          <Image src={icon2} alt="" height={80} width={80} />
+          <Image src={icon4} alt="" height={80} width={80} />
           <CardCol>
-            <CardTitle>Cloud Software</CardTitle>
+            <CardTitle>Drops Information</CardTitle>
             <CardText>
-              Hands-free cloud software. No more need to setup the bot, purchase
-              proxies, or servers
+              Detailed analytical information on each drop. Notifications system
+              for drops
             </CardText>
           </CardCol>
         </GridCard>
         <GridCard>
           <Image src={icon3} alt="" height={80} width={80} />
           <CardCol>
-            <CardTitle>Captcha Solver</CardTitle>
+            <CardTitle>Captcha</CardTitle>
             <CardText>
-              Innovative solver system allocates captchas in the most efficient
-              and fast way at any load level
-            </CardText>
-          </CardCol>
-        </GridCard>
-        <GridCardFiller />
-        <GridCard>
-          <Image src={icon4} alt="" height={80} width={80} />
-          <CardCol>
-            <CardTitle>Drops Information</CardTitle>
-            <CardText>
-              Detailed analytical information on each NFT drop. Notifications
-              system for VeVe, Ethereum, and Solana drops
+              Innovative system allocates captchas in the most efficient and
+              fast way at any load level
             </CardText>
           </CardCol>
         </GridCard>

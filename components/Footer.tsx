@@ -193,9 +193,7 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
             <Image src={footerLogo} width={108} height={16} alt="Logo" />
           </LogoRow>
           <DisclaimerText>
-            NFT Automation Hands-free Cloud Software with Drop & Restock
-            Automation and Innovative solver system. Supporting NFT Platforms:
-            VeVe | Solana | Ethereum
+            Multiplatform Automation Software with Drop & Restock Automation
           </DisclaimerText>
         </Col>
         <Col>
@@ -218,9 +216,6 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
         </Col>
         <Col>
           <Heading>Contact</Heading>
-          <Link href="mailto:ohodkompsonutzer@gmail.com">
-            ohodkompsonutzer@gmail.com
-          </Link>
           <SocialsIconsRow>
             <SocialsIcon
               href="https://twitter.com/Quantum_NFT"
