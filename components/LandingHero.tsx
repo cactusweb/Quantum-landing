@@ -76,7 +76,7 @@ const MobileLandingImage = styled.div`
 const Col = styled.div`
   display: flex;
   flex-direction: column;
-  width: 1040px;
+  width: 1250px;
   max-width: 90vw;
   margin: 0 auto;
   min-height: 750px;
