@@ -38,11 +38,13 @@ const FadeOutRegion = styled.div`
 const LandingImage = styled.div`
   position: absolute;
   top: 150px;
-  right: -50px;
   height: 460px;
   box-shadow: 0 0 60px rgba(85, 247, 255, 0.3);
 
+  left: 50%;
+
   @media (max-width: 1350px) {
+    right: -50px;
     transform: scale(0.9);
     transform-origin: right;
   }

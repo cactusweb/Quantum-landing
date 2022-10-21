@@ -76,9 +76,10 @@ const Title = styled.span`
 `;
 
 const SuccessImage = styled.div`
-  height: 240px;
+  height: 244px;
   margin-right: 40px;
   border: 2px solid #55f7ff;
+  box-sizing: border-box;
 `;
 
 const SuccessImageMobile = styled.div`
