@@ -218,7 +218,7 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
           <Heading>Contact</Heading>
           <SocialsIconsRow>
             <SocialsIcon
-              href="https://twitter.com/Quantum_NFT"
+              href="https://twitter.com/qntm_io"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -128,7 +128,7 @@ const CommunitySection = () => {
         Quantum IO events
       </Subtitle>
       <Row>
-        <Button href="https://twitter.com/Quantum_NFT">
+        <Button href="https://twitter.com/qntm_io">
           <ButtonText>Twitter</ButtonText>
           <ButtonIcon>
             <Image
