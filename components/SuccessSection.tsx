@@ -80,6 +80,7 @@ const SuccessImage = styled.div`
   margin-right: 40px;
   border: 2px solid #55f7ff;
   box-sizing: border-box;
+  margin-top: 2px;
 `;
 
 const SuccessImageMobile = styled.div`
@@ -90,6 +91,8 @@ const SuccessImageMobile = styled.div`
 `;
 
 const DesktopMarquee = styled.div`
+  height: 246px;
+
   @media (max-width: 900px) {
     display: none;
   }
