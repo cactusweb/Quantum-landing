@@ -2,8 +2,8 @@ import styled from "styled-components";
 import Image from "next/image";
 
 import landingBackground from "../assets/background-landing.png";
-import landingImage from "../assets/landing-image.svg";
-import landingImageMobile from "../assets/landing-image-mobile.png";
+import landingImage from "../assets/landing-image.png";
+import landingImageMobile from "../assets/landing-image.png";
 import checkboxGreen from "../assets/checkbox.svg";
 
 const Background = styled.div`
@@ -40,6 +40,7 @@ const LandingImage = styled.div`
   top: 150px;
   height: 460px;
   box-shadow: 0 0 60px rgba(85, 247, 255, 0.3);
+  border: 3px solid #55f7ff;
 
   left: 50%;
 
@@ -69,6 +70,7 @@ const MobileLandingImage = styled.div`
   margin-top: 35px;
   align-self: flex-start;
   height: calc(90vw * 0.574);
+  border: 3px solid #55f7ff;
 
   @media (max-width: 1000px) {
     display: block;
