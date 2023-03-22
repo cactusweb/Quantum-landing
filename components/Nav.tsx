@@ -96,10 +96,10 @@ const Nav = ({ isExternal }: { isExternal?: boolean }) => {
         <NavLink href={`${isExternal ? "/" : ""}#success`}>Success</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#faq`}>FAQ</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#community`}>Community</NavLink>
-        <NavButton href="https://dashboard.qionft.cloud/products/quantumio/5338">
+        <NavButton href="https://dash.qntmru.io/purchase">
           Join Waitlist
         </NavButton>
-        <NavButtonSecondary href="https://dashboard.qionft.cloud/">
+        <NavButtonSecondary href="https://dash.qntmru.io/">
           Dashboard
         </NavButtonSecondary>
         <MobileNavButton onClick={() => setIsMobileNavOpen(true)}>

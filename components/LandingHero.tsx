@@ -244,7 +244,7 @@ const LandingHero = () => {
           Various Modules: Cloud | Hybrid | Pro
         </Subtitle>
         <ButtonsRow>
-          <ButtonLeft href="https://dashboard.qionft.cloud/quantumio?directPlanId=hybrid_wl">
+          <ButtonLeft href="https://dash.qntmru.io/purchase">
             Join Waitlist
           </ButtonLeft>
           <ButtonRight href="#features">Learn More</ButtonRight>
