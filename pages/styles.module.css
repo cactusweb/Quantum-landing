@@ -1,0 +1,88 @@
+/* :host {
+  display: grid;
+  row-gap: 100px;
+  padding-bottom: 60px;
+}
+:host * > {
+  justify-items: center;
+  max-width: 1360px;
+  width: 100%;
+} */
+
+.agreement {
+  width: 100%;
+  max-width: 1560px;
+  box-sizing: border-box;
+  padding: 0px 80px;
+  justify-self: center;
+}
+
+@media screen and (max-width: 780px) {
+  .agreement {
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .agreement {
+    padding: 0px 20px;
+    margin-top: 20px;
+  }
+}
+
+.agreement {
+  display: grid;
+  align-self: start;
+  padding-bottom: 40px;
+}
+
+.title {
+  justify-self: center;
+  text-align: center;
+}
+
+.important {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 300;
+}
+.point {
+  margin-left: 20px;
+}
+.name {
+  font-weight: 500;
+}
+.subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.infoBlock {
+  display: grid;
+  row-gap: 20px;
+  justify-items: start;
+}
+.infoBlock > .info {
+  display: grid;
+  row-gap: 10px;
+}
+
+.content {
+  display: grid;
+  row-gap: 60px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #e5e5e5;
+  cursor: text;
+}
+.link.pointer {
+  cursor: pointer;
+}

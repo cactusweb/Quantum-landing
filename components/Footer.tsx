@@ -235,13 +235,10 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
       <UnderFooterRow>
         <UnderFooterWrapper>
           <CopyrightText>
-            SSQ Digital LLP <MobileHidden>| </MobileHidden>
-            <MobileOnlyBreak />
-            Copyright © 2022 | All rights reserved.
+            Copyright © 2023 | All rights reserved.
           </CopyrightText>
           <LegalLinks>
-            <LegalLink href="/terms">Terms & Conditions</LegalLink>
-            <LegalLink href="/privacy">Privacy Policy</LegalLink>
+            <LegalLink href="/user_agreement">User agreement</LegalLink>
           </LegalLinks>
         </UnderFooterWrapper>
       </UnderFooterRow>

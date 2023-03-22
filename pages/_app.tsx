@@ -32,11 +32,11 @@ export default function App({ Component, pageProps }) {
         <meta name="theme-color" content="#55F7FF" />
         <meta
           property="og:image"
-          content="https://quantum-landing.vercel.app/metadata_preview.png"
+          content="https://qntmru.io/metadata_preview.png"
         />
         <meta
           name="twitter:image"
-          content="https://quantum-landing.vercel.app/metadata_preview.png"
+          content="https://qntmru.io/metadata_preview.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Quantum_NFT" />
@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
           property="og:title"
           content="Quantum IO | NFT Automation Cloud Software"
         />
-        <meta property="og:url" content="https://quantum-landing.vercel.app/" />
+        <meta property="og:url" content="https://qntmru.io/" />
         <meta
           name="twitter:title"
           content="Quantum IO | NFT Automation Cloud Software"
