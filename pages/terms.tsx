@@ -233,7 +233,7 @@ const TermsPage = () => {
               </li>
               <li>
                 Website: Quantum IO."’s" site, which can be accessed via this
-                URL: http://www.qionft.cloud/
+                URL: http://www.qntmru.io/
               </li>
               <li>
                 You: a person or entity that is registered with Quantum IO to
