@@ -96,7 +96,7 @@ const Nav = ({ isExternal }: { isExternal?: boolean }) => {
         <NavLink href={`${isExternal ? "/" : ""}#success`}>Success</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#faq`}>FAQ</NavLink>
         <NavLink href={`${isExternal ? "/" : ""}#community`}>Community</NavLink>
-        <NavButton href="https://dash.qntmru.io/purchase">
+        <NavButton href="https://discord.gg/XY939bCtxp">
           Join Waitlist
         </NavButton>
         <NavButtonSecondary href="https://dash.qntmru.io/">

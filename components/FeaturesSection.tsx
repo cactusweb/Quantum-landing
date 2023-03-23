@@ -218,8 +218,8 @@ const FeaturesSection = () => {
       <AboveTitle>FEATURES</AboveTitle>
       <Title>Multiplatform Automation Software</Title>
       <Subtitle>
-        All-in-One Software with three different modules for maximum success
-        during Drops & Restocks on any platform
+        All in one Software for maximum success during limited items Drops &
+        Restocks on any platform
       </Subtitle>
       <Grid>
         <GridCard>

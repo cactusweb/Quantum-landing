@@ -241,10 +241,10 @@ const LandingHero = () => {
         <Subtitle>
           Innovative Software to buy limited items
           <br />
-          Various Modules: Cloud | Hybrid | Pro
+          All in one Module: Hybrid & Local technologies
         </Subtitle>
         <ButtonsRow>
-          <ButtonLeft href="https://dash.qntmru.io/purchase">
+          <ButtonLeft href="https://discord.gg/XY939bCtxp">
             Join Waitlist
           </ButtonLeft>
           <ButtonRight href="#features">Learn More</ButtonRight>

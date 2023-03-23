@@ -208,7 +208,7 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
             <LinksCol>
               <Link href={`${isExternal ? "/" : ""}#faq`}>FAQ</Link>
               <Link href={`${isExternal ? "/" : ""}#community`}>Community</Link>
-              <Link href="https://dash.qntmru.io/purchase">Join Waitlist</Link>
+              <Link href="https://discord.gg/XY939bCtxp">Join Waitlist</Link>
             </LinksCol>
           </LinksRow>
         </Col>
@@ -234,9 +234,7 @@ const Footer = ({ isExternal }: { isExternal?: boolean }) => {
       </Container>
       <UnderFooterRow>
         <UnderFooterWrapper>
-          <CopyrightText>
-            Copyright © 2023 | All rights reserved.
-          </CopyrightText>
+          <CopyrightText>Copyright © 2023 | All rights reserved.</CopyrightText>
           <LegalLinks>
             <LegalLink href="/user_agreement">User agreement</LegalLink>
           </LegalLinks>
