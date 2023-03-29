@@ -243,7 +243,7 @@ const UserAgreementPage = () => {
               <p>
                 5.5. Further (once a month) payment is made automatically. Money
                 is debited from the card specified in the personal data every 30
-                (thirty), the amount debited is 15 (fifteen) or 25 (twenty five)
+                (thirty), the amount debited is 127 (one hundred twenty seven) or 100 (one hundred)
                 dollars, depending on the date of purchase of the key.
               </p>
               <p>
