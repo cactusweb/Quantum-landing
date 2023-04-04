@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="description"
-          content="NFT Automation Hands-free Cloud Software with Drop & Restock Automation and Innovative solver system."
+          content="Automation Hands-free Cloud Software with Drop & Restock Automation and Innovative solver system."
         />
       </Head>
       <GlobalStyle />
